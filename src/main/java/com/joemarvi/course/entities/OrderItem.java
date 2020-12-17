@@ -63,6 +63,10 @@ private static final long serialVersionUID = 1L;
 	public void setPrice(Double price) {
 		this.price = price;
 	}
+	
+	public Double getSubTtotal() {
+		return price * quantity;
+	}
 
 	@Override
 	public int hashCode() {
