@@ -19,12 +19,12 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 @Entity
 @Table(name = "tb_product")
 public class Product implements Serializable {
-
 	private static final long serialVersionUID = 1L;
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+
 	private String name;
 	private String description;
 	private Double price;
@@ -36,7 +36,7 @@ public class Product implements Serializable {
 
 	@OneToMany(mappedBy = "id.product")
 	private Set<OrderItem> items = new HashSet<>();
-	
+
 	public Product() {
 	}
 
@@ -92,11 +92,11 @@ public class Product implements Serializable {
 	public Set<Category> getCategories() {
 		return categories;
 	}
-	
+
 	@JsonIgnore
-	public Set<Order> getOrders(){
+	public Set<Order> getOrders() {
 		Set<Order> set = new HashSet<>();
-		for(OrderItem x : items) {
+		for (OrderItem x : items) {
 			set.add(x.getOrder());
 		}
 		return set;
@@ -126,4 +126,5 @@ public class Product implements Serializable {
 			return false;
 		return true;
 	}
+
 }

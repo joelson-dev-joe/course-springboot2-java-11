@@ -10,14 +10,15 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.joemarvi.course.entities.pk.OrderItemPK;
 
 @Entity
-@Table(name = "tb_order_item")
-public class OrderItem implements Serializable{
-private static final long serialVersionUID = 1L;
-	
+@Table(name = "order_item")
+public class OrderItem implements Serializable {
+	private static final long serialVersionUID = 1L;
+
 	@EmbeddedId
 	private OrderItemPK id = new OrderItemPK();
-	
+
 	private Integer quantity;
+
 	private Double price;
 
 	public OrderItem() {
@@ -30,20 +31,20 @@ private static final long serialVersionUID = 1L;
 		this.quantity = quantity;
 		this.price = price;
 	}
-	
+
 	@JsonIgnore
 	public Order getOrder() {
 		return id.getOrder();
 	}
-	
+
 	public void setOrder(Order order) {
 		id.setOrder(order);
 	}
-	
+
 	public Product getProduct() {
 		return id.getProduct();
 	}
-	
+
 	public void setProduct(Product product) {
 		id.setProduct(product);
 	}
@@ -64,7 +65,7 @@ private static final long serialVersionUID = 1L;
 		this.price = price;
 	}
 	
-	public Double getSubTtotal() {
+	public Double getSubTotal() {
 		return price * quantity;
 	}
 
