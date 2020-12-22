@@ -1,0 +1,132 @@
+[33mcommit 3ee356c4718418cdc321b14866620a94dfaa5ffa[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: joelson-dev-joe <joelson.dh@gmail.com>
+Date:   Tue Dec 22 09:37:23 2020 -0300
+
+    Exception handling - update
+
+[33mcommit 0e4ebce73a7dfeb66524ebb7dd27e033fb001db2[m
+Author: joelson-dev-joe <joelson.dh@gmail.com>
+Date:   Tue Dec 22 09:16:39 2020 -0300
+
+    Exception handling - findById
+
+[33mcommit 2febbd518351efa8728ba827483bd7efc84a801c[m
+Author: joelson-dev-joe <joelson.dh@gmail.com>
+Date:   Tue Dec 22 08:52:37 2020 -0300
+
+    User update
+
+[33mcommit 70d6973d0b4f7f24e8adaf3fe7e556512d8a3cdc[m
+Author: joelson-dev-joe <joelson.dh@gmail.com>
+Date:   Tue Dec 22 08:41:17 2020 -0300
+
+    User delete
+
+[33mcommit 7f336c35fe01e7730c95fc2b0b4bf40c0706fd29[m
+Author: joelson-dev-joe <joelson.dh@gmail.com>
+Date:   Tue Dec 22 08:31:53 2020 -0300
+
+    User insert
+
+[33mcommit 89d3c296d65d75bcd253bbee849c27cf27e27101[m
+Author: joelson-dev-joe <joelson.dh@gmail.com>
+Date:   Thu Dec 17 09:12:56 2020 -0300
+
+    Subtotal & Total methods
+
+[33mcommit 2fa81e653a297b0ca38951dbd8edec2cb947ab56[m
+Author: joelson-dev-joe <joelson.dh@gmail.com>
+Date:   Thu Dec 17 08:57:03 2020 -0300
+
+    Payment, one-to-one association
+
+[33mcommit 7a29708cf9728b0cf8a356be3c69992a5eeb22a4[m
+Author: joelson-dev-joe <joelson.dh@gmail.com>
+Date:   Wed Dec 16 16:21:23 2020 -0300
+
+    Product-OrderItem one-to-many association
+
+[33mcommit a77cb3580eca28e1dab809a34787171ab823f9f7[m
+Author: joelson-dev-joe <joelson.dh@gmail.com>
+Date:   Wed Dec 16 14:14:09 2020 -0300
+
+    OrderItem, many-to-many association with extra attributes - PART 2
+
+[33mcommit fdac359f05b0e59b07b27ace179220d7229371b1[m
+Author: joelson-dev-joe <joelson.dh@gmail.com>
+Date:   Wed Dec 16 13:30:55 2020 -0300
+
+    OrderItem, many-to-many association with extra attributes - PART 1
+
+[33mcommit 488e94fbc8baadbeb4565fff8819cb4e334da1b5[m
+Author: joelson-dev-joe <joelson.dh@gmail.com>
+Date:   Wed Dec 16 10:10:26 2020 -0300
+
+    Many-to-many association with JoinTable
+
+[33mcommit a6a863973d8dc2ace30752d82c27e5768c232f9c[m
+Author: joelson-dev-joe <joelson.dh@gmail.com>
+Date:   Tue Dec 15 16:57:56 2020 -0300
+
+    Product
+
+[33mcommit 3583a0ef640ddc9096c5fde8bf7205d30ee6757a[m
+Author: joelson-dev-joe <joelson.dh@gmail.com>
+Date:   Tue Dec 15 16:52:59 2020 -0300
+
+    df91056ps@csti-04 MINGW64 ~/Desktop/getUser/udemy/curso_java/ws-java_udemy/course (master)
+    Product
+
+[33mcommit 99a8edeb8e4ea898f56c447126795592911ad6e8[m
+Author: joelson-dev-joe <joelson.dh@gmail.com>
+Date:   Tue Dec 15 15:39:57 2020 -0300
+
+    Category
+
+[33mcommit 4d903968e8eb46fe650e0dc1c8423c1f9953a247[m
+Author: joelson-dev-joe <joelson.dh@gmail.com>
+Date:   Tue Dec 15 11:27:12 2020 -0300
+
+    OrderStatus enum
+
+[33mcommit ae1673f7999b760173c42cb25f81c2fd7e05685d[m
+Author: joelson-dev-joe <joelson.dh@gmail.com>
+Date:   Tue Dec 15 09:57:11 2020 -0300
+
+    Order, Instant, ISO 8601 - PART 2
+
+[33mcommit d4405fb753e7740058505c74b58a308876a48600[m
+Author: joelson-dev-joe <joelson.dh@gmail.com>
+Date:   Tue Dec 15 09:27:24 2020 -0300
+
+    Order, Instant, ISO 8601 - PART 1
+
+[33mcommit 8f174d81cc9df94eaaa49bb8f1aba7162e002fa7[m
+Author: joelson-dev-joe <joelson.dh@gmail.com>
+Date:   Tue Dec 15 08:58:38 2020 -0300
+
+    Service layer, component registration
+
+[33mcommit 53a2c316a096a13020e9b7f5b836ef97773641fc[m
+Author: joelson-dev-joe <joelson.dh@gmail.com>
+Date:   Mon Dec 14 13:15:31 2020 -0300
+
+    JPA repository, dependency injection, database seeding
+
+[33mcommit 8ec18a9f5f44a62a4e26e2285292a1dfa117c4bb[m
+Author: joelson-dev-joe <joelson.dh@gmail.com>
+Date:   Mon Dec 14 12:34:34 2020 -0300
+
+    H2 database, test profile, JPA
+
+[33mcommit 0f77fb283c024ccdf4f2b36b70556a862501a641[m
+Author: joelson-dev-joe <joelson.dh@gmail.com>
+Date:   Mon Dec 14 11:56:15 2020 -0300
+
+    User entity and resource
+
+[33mcommit feda0683c268ad6e96b504843992d86e0049b937[m
+Author: joelson-dev-joe <joelson.dh@gmail.com>
+Date:   Mon Dec 14 11:36:57 2020 -0300
+
+    Project created
